@@ -1,0 +1,62 @@
+.profile/* Profile Container */
+.profile-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+/* Heading */
+.profile-container h2 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Profile Information */
+.profile-container p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.profile-container strong {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Logout Button */
+button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Error and Loading Message */
+.profile-container p {
+    font-size: 14px;
+    color: #777;
+}
+
+.profile-container p.loading, .profile-container p.error {
+    font-size: 14px;
+    color: #ff6347; /* Error text color */
+}
+
+.profile-container p.loading {
+    color: #007bff; /* Loading text color */
+}
